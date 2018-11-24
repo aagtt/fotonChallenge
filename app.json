@@ -1,0 +1,7 @@
+{
+  "name": "frontend",
+  "displayName": "Challenge Foton",
+  "expo": {
+    "sdkVersion": "27.0.0"
+  }
+}

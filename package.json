@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtool": "react-devtools"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "@babel/runtime": "^7.0.0",
+    "react-native": "0.57.1",
+    "react-navigation": "1.5.11",
+    "native-base": "^2.3.3",
+    "apollo-client-preset": "^1.0.2",
+    "apollo-link-context": "^1.0.0",
+    "expo": "^27.0.0",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "react-apollo": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.46.0",
+    "react-devtools": "^3.4.3",
+    "react-dom": "16.6.1",
+    "react-test-renderer": "16.5.0",
+    "reactotron-react-native": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
